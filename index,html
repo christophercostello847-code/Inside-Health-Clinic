@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Inside Health Clinic — Naturopathic Care in Oakville</title>
+<meta name="description" content="Inside Health Clinic offers licensed naturopaths in Oakville who provide holistic treatments, IV therapy, hormone support, and wellness assessments for optimal health.">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0f1724;
+  --card:#0b1220;
+  --muted:#94a3b8;
+  --accent:#ff6b6b;
+  --glass: rgba(255,255,255,0.04)
+}
+*{box-sizing:border-box}
+html,body{
+  height:100%;
+  margin:0;
+  font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial;
+  color:#e6eef8;
+  background: linear-gradient(180deg,#071029 0%, #071b2b 60%);
+}
+.container{
+  max-width:1100px;
+  margin:48px auto;
+  padding:28px;
+  background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  backdrop-filter: blur(4px);
+  border-radius:12px;
+  box-shadow:0 10px 30px rgba(2,6,23,0.6);
+  border:1px solid rgba(255,255,255,0.03)
+}
+header{
+  display:flex;
+  align-items:center;
+  gap:18px;
+  margin-bottom:18px
+}
+.logo{
+  width:68px;
+  height:68px;
+  border-radius:12px;
+  display:grid;
+  place-items:center;
+  background:linear-gradient(135deg,var(--accent),#ff9a9a);
+  color:white;
+  font-weight:700;
+  font-family:Playfair Display,serif;
+  font-size:20px
+}
+h1{
+  font-family:Playfair Display,serif;
+  margin:0;
+  font-size:28px;
+  color:#fff
+}
+.sub{
+  color:var(--muted);
+  margin-top:6px
+}
+.hero{
+  display:grid;
+  grid-template-columns:1fr 320px;
+  gap:24px;
+  margin-top:20px
+}
+.card{
+  background:var(--card);
+  padding:22px;
+  border-radius:10px;
+  border:1px solid rgba(255,255,255,0.02)
+}
+.lead{
+  font-size:16px;
+  color:#d9e6f6;
+  line-height:1.7
+}
+.author-link{
+  color:var(--accent);
+  font-weight:600;
+  text-decoration:none
+}
+nav.meta{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:14px
+}
+.chip{
+  background:var(--glass);
+  padding:8px 12px;
+  border-radius:999px;
+  color:var(--muted);
+  font-size:13px;
+  border:1px solid rgba(255,255,255,0.02)
+}
+article{margin-top:18px}
+h2{
+  font-family:Playfair Display,serif;
+  color:#fff;
+  margin:22px 0 12px;
+  font-size:20px
+}
+p{
+  color:#cfe3f8;
+  line-height:1.7;
+  margin:10px 0
+}
+ul{
+  color:#cfe3f8;
+  margin:10px 0 20px 20px
+}
+.events{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:12px
+}
+.event{
+  background:linear-gradient(180deg,rgba(255,255,255,0.01),rgba(255,255,255,0.015));
+  padding:12px;
+  border-radius:8px;
+  border:1px solid rgba(255,255,255,0.02)
+}
+footer{
+  margin-top:28px;
+  padding-top:18px;
+  border-top:1px solid rgba(255,255,255,0.02);
+  display:flex;
+  justify-content:space-between;
+  align-items:center
+}
+.btn{
+  display:inline-block;
+  padding:10px 14px;
+  border-radius:8px;
+  background:linear-gradient(90deg,var(--accent),#ff9a9a);
+  color:#041022;
+  text-decoration:none;
+  font-weight:700
+}
+.small{font-size:13px;color:var(--muted)}
+@media (max-width:880px){
+  .hero{grid-template-columns:1fr}
+  header{gap:12px}
+  .logo{width:56px;height:56px;font-size:18px}
+}
+</style>
+</head>
+<body>
+<main class="container" role="main">
+<header>
+<div class="logo">IH</div>
+<div>
+<h1>Inside Health Clinic — Your Trusted Naturopathic Care Center in Oakville</h1>
+<div class="sub">Promoting optimal health and wellness through natural medicine with a team of licensed naturopaths in Oakville.</div>
+<nav class="meta" aria-label="Article metadata">
+<div class="chip">Naturopathic Care</div>
+<div class="chip">Holistic Wellness</div>
+<div class="chip">IV Therapy & Hormone Support</div>
+</nav>
+</div>
+</header>
+<section class="hero">
+<div class="card">
+<p class="lead">[<a class="author-link" href="https://insidehealthclinic.com/">Inside Health Clinic</a>] is a premier naturopathic clinic in Oakville offering licensed naturopaths dedicated to holistic treatments, IV therapy, hormone support, and wellness assessments to help patients achieve lasting health and optimal wellness.</p>
+<article>
+<h2>What is a Naturopathic Clinic?</h2>
+<p>A naturopathic clinic focuses on natural and holistic approaches to healthcare. Unlike conventional medicine that treats symptoms, naturopathy emphasizes prevention, underlying causes, and patient-centered care. Licensed naturopaths at Inside Health Clinic use evidence-based natural treatments like herbal medicine, IV therapy, nutrition counseling, lifestyle interventions, and advanced lab testing to support the body's innate healing abilities.</p>
+
+<h2>Our Approach to Patient Care</h2>
+<p>Inside Health Clinic provides individualized care starting with a thorough health assessment, lifestyle review, and goal setting. This enables our naturopaths to develop tailored treatment plans combining modern diagnostics and natural therapies.</p>
+
+<h2>Comprehensive Health Assessments</h2>
+<ul>
+<li><strong>Metabolic Testing:</strong> Evaluates how your body processes nutrients and energy.</li>
+<li><strong>Hormone Analysis:</strong> Detects imbalances affecting energy, mood, or metabolism.</li>
+<li><strong>Nutrient Deficiency Testing:</strong> Identifies vitamin and mineral gaps impacting health.</li>
+<li><strong>IV Therapy Evaluations:</strong> Ensures personalized and effective intravenous treatments.</li>
+</ul>
+
+<h2>Our Services</h2>
+<h3>IV Therapy for Fatigue and Wellness</h3>
+<p>IV therapy replenishes essential vitamins, minerals, and amino acids directly into the bloodstream. Patients report improved energy, mental clarity, and immune function.</p>
+
+<h3>Hormonal Health Support</h3>
+<p>We provide natural hormone therapies for both men and women addressing menopause, andropause, thyroid disorders, and adrenal fatigue, helping patients regain vitality and well-being.</p>
+
+<h3>Weight Management and Lifestyle Optimization</h3>
+<p>Our metabolic and lifestyle assessments identify root causes of weight gain, creating personalized nutrition, exercise, stress management, and gut health strategies for sustainable results.</p>
+
+<h3>Chronic Disease Management</h3>
+<p>Our clinic supports patients with chronic conditions like autoimmune disorders, digestive issues, and cardiovascular concerns through natural, integrative treatment plans to improve quality of life.</p>
+
+<h2>The Role of Patient Education</h2>
+<p>Informed patients achieve better outcomes. Our team educates patients about conditions, treatments, and lifestyle modifications, enabling informed healthcare decisions for long-term wellness.</p>
+
+<h2>Why Choose Inside Health Clinic?</h2>
+<ul>
+<li><strong>Licensed and Experienced Naturopaths</strong> – Professional, evidence-based care.</li>
+<li><strong>Holistic Approach</strong> – Focus on root causes, not just symptoms.</li>
+<li><strong>Advanced Diagnostic Tools</strong> – Accurate, personalized treatment planning.</li>
+<li><strong>Patient-Centered Care</strong> – Customized to your unique needs.</li>
+<li><strong>Comprehensive Wellness Programs</strong> – From IV therapy to metabolic assessments.</li>
+</ul>
+
+<h2>Success Stories from Our Patients</h2>
+<p>Many patients have regained energy, hormonal balance, and weight control with our individualized care. Testimonials highlight our compassionate, results-driven approach.</p>
+
+<h2>Integrating Natural Medicine into Daily Life</h2>
+<p>We guide patients on nutrition, stress management, exercise, and supplementation to support long-term wellness and empower self-care practices.</p>
+
+<h2>Frequently Asked Questions</h2>
+<ul>
+<li><strong>Q:</strong> What conditions can naturopaths treat?<br><strong>A:</strong> Hormonal imbalances, fatigue, digestive disorders, autoimmune issues, chronic pain, and metabolic concerns.</li>
+<li><strong>Q:</strong> How long to see results?<br><strong>A:</strong> Results vary; some see improvement in weeks, others require longer treatment.</li>
+<li><strong>Q:</strong> Are treatments safe?<br><strong>A:</strong> Yes. All therapies are evidence-based and administered by licensed professionals.</li>
+<li><strong>Q:</strong> Can naturopathy be combined with conventional medicine?<br><strong>A:</strong> Yes. Naturopathy complements conventional care for better outcomes.</li>
+</ul>
+
+<h2>Schedule Your Consultation</h2>
+<p>Take charge of your health. Book a consultation with our Oakville naturopathic team to receive a personalized treatment plan and start your journey to optimal wellness. Visit <a class="author-link" href="https://insidehealthclinic.com/">Inside Health Clinic</a> today.</p>
+</article>
+<footer>
+<div class="small">© Inside Health Clinic — Oakville Naturopathic Care</div>
+<a class="btn" href="https://insidehealthclinic.com/">Visit Site</a>
+</footer>
+</div>
+<aside class="card">
+<h3 style="margin-top:0;font-family:Playfair Display,serif;color:#fff">Quick Links</h3>
+<div class="events">
+<div class="event"><strong>IV Therapy</strong><div class="small">Boost energy & immunity</div></div>
+<div class="event"><strong>Hormone Support</strong><div class="small">Balance your hormones naturally</div></div>
+<div class="event"><strong>Weight Management</strong><div class="small">Sustainable lifestyle plans</div></div>
+<div class="event"><strong>Chronic Conditions</strong><div class="small">Holistic management</div></div>
+</div>
+<h3 style="margin-top:18px;font-family:Playfair Display,serif;color:#fff">Get Started</h3>
+<p class="small">Empower yourself with personalized naturopathic care and lifestyle guidance from our Oakville clinic.</p>
+<p style="margin-top:10px"><a class="btn" href="https://insidehealthclinic.com/">Book a Consultation</a></p>
+</aside>
+</section>
+</main>
+</body>
+</html>
